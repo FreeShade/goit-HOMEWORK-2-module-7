@@ -7,7 +7,7 @@ setup(name='goit-HOMEWORK-2-module-7',
       author_email='test@example.com',
       license='MyIT',
       packages=find_namespace_packages(),
-      entry_points={'console_scripts': ['greeting = goit-HOMEWORK-2-module-7.main:greeting']},
+      entry_points={'console_scripts': ['greeting=goit-HOMEWORK-2-module-7.main:greeting']},
 #greeting - команда яка повинна виконатись в терміналі
 #після "=" пишемо шлях до файлу де знаходиться функція => goit-HOMEWORK-2-module-7.main
 #після ":" пишемо назву функції greeting
