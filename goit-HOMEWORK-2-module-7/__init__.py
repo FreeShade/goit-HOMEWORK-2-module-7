@@ -1,1 +1,1 @@
-from .clean import normalize , process_folder
+from .clean import main
